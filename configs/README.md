@@ -7,7 +7,7 @@ Examples:
 - sshd_config (hardened)
 - ufw rules
 
-These files represent the final production-ready configuration of the server.
+These files represent the baseline configuration of the server.
 
 
 # Server Configuration Files
