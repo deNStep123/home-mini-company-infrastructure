@@ -1,24 +1,15 @@
-# Configuration Files
+## Configuration Files
 
-This directory stores important server configuration files.
+This directory contains the baseline configuration for the Linux server used in the Education Project.
 
-Examples:
-- netplan configuration
-- sshd_config (hardened)
-- ufw rules
+The configuration is organized by system layer:
 
-These files represent the baseline configuration of the server.
+### Network Configuration
+- `netplan.yaml` — Defines bridged and internal network interfaces
 
+### Security Configuration
+- `sshd_config` — Hardened SSH configuration (key-based authentication only)
+- `ufw.rules` — Firewall ruleset (importable via iptables-restore)
+- `ufw-summary.txt` — Human-readable documentation of firewall rules
 
-# Server Configuration Files
-
-This directory stores important server configuration files used for the Education Project 1 server.
-
-### Contents
-
-- **netplan.yaml** — Network configuration (bridge + internal network)
-- **sshd_config** — Hardened SSH configuration (ED25519 keys only, password login disabled, restricted access)
-- **ufw.rules** — Full firewall rules, can be imported to another machine (`iptables-restore`)
-- **ufw-summary.txt** — Human-readable summary of firewall rules for documentation and review
-
-These files represent the **final, production-ready configuration** of the server.
+These files represent the intended target state of the system and are used to reproduce the server configuration consistently.
