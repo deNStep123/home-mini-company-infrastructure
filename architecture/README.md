@@ -8,4 +8,4 @@ Current design:
 - Internal network interface
 - Server acting as gateway and firewall
 
-See network-topology.png for visual representation.
+See the **HMCI Overview.png** diagram for an external view of the infrastructure.
