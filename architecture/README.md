@@ -1,10 +1,13 @@
 # Architecture
 
-This directory contains network topology diagrams and infrastructure schemes.
+**This directory contains network topology diagrams and infrastructure schemes.**
 
 Current design:
-- 1 Linux server
-- WAN interface (NAT)
+- Oracle VirtualBox - main virtualization machine
+Specs:
+- 8 cores, 8 GB RAM, 150GB SATA
+- Linux server
+- Bridged connection
 - Internal network interface
 - Server acting as gateway and firewall
 
