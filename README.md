@@ -1,5 +1,7 @@
 # 🖥 Home Mini Company Infrastructure
 
+### Not abandoned, but work is in progress.
+
 ## 📌 Project Overview
 
 This project simulates a small company infrastructure with approximately 20 employees.
